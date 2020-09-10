@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="audio.css">
+
+
+    <script src="audio.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main" id='main'>
+    </div>
+    <div class="player">
+        <div class="row1" id="row1">
+        </div>
+        <div id="songTitle">Title</div>
+        <div class="row2">
+            <div class="play">
+                <img src="https://image.flaticon.com/icons/svg/1262/1262150.svg" id='pre' onclick="prev()" alt="">
+                <img src="https://image.flaticon.com/icons/svg/1262/1262172.svg" id='play'  onclick="playOrPauseSong()" alt="">
+                <img src="https://image.flaticon.com/icons/svg/1262/1262170.svg" id='next'  onclick="next()" alt="">
+
+            </div>
+            <div class="seek-bar ">
+                <div class="handle">
+                    <div id="fill">
+                    </div>
+                </div>
+
+            </div>
+            <div class="mute ">
+                <div id="currentTime">00:00 / 00:00</div>
+                <div class="muteButtons">
+                    <img src="https://image.flaticon.com/icons/svg/1783/1783238.svg" id='decrease' onclick="decrease()" alt="">
+                    <img src="https://image.flaticon.com/icons/svg/1783/1783304.svg" id='mute' onclick="muted()" alt="">
+                    <img src="https://image.flaticon.com/icons/svg/1783/1783255.svg" id='increase' onclick="increase()" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
